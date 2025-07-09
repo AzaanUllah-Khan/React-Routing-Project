@@ -15,7 +15,7 @@ const OneUser = () => {
     getOneData()
   }, [])
   return (
-    <div className="w-full flex items-center justify-center p-10">
+    <div className="w-full flex items-center justify-center p-10"> 
       <div className="flex flex-col bg-gray-100 rounded-xl px-7 py-5 w-1/3 inset-shadow-sm">
         <div className="flex items-center justify-center gap-1 mb-3"><UserCircleIcon className="size-6 text-blue-700"/><h1 className="text-xl text-blue-700 text-center">{data.username}</h1></div>
         <h1 className="text-2xl font-semibold text-gray-700">{data.name}</h1>
